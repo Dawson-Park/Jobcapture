@@ -1,7 +1,7 @@
 {
-  "name": "toy_schedule",
+  "name": "jobcapture",
   "version": "1.0.0",
-  "description": "어 느새 부터 힙 합 은안멋져",
+  "description": "Bienvenido a la isla bonita, de gracia, de oro y de sol.",
   "main": "index.js",
   "dependencies": {
     "puppeteer": "^13.0.1"
@@ -10,6 +10,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "dawson",
+  "license": "MIT"
 }
