@@ -40,6 +40,8 @@ function getWeek() {
 	// Date 메소드를 사용하기 위해 생성자로 Date 객체 생성
 	const firstDay = new Date(curr.setDate(first));
 	const lastDay = new Date(curr.setDate(last));
+	
+	const flag = (firstDay > lastDay) ? 2 : 1; // 달이 바뀌는 경우 2 / 아니면 1
 
 	// 주의 첫날과 주의 마지막날을 객체로 return
 	return {
@@ -50,7 +52,7 @@ function getWeek() {
 		},
 		lastDay: {
 			year: lastDay.getFullYear(),
-			month: lastDay.getMonth()+1,
+			month: lastDay.getMonth() + flag,
 			day: lastDay.getDate()
 		}
 	}
