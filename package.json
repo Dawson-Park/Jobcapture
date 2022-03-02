@@ -1,6 +1,6 @@
 {
   "name": "jobcapture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bienvenido a la isla bonita, de gracia, de oro y de sol.",
   "main": "index.js",
   "dependencies": {
