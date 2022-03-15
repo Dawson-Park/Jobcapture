@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
 
 	await page.goto('https://ssl.jobcan.jp/login/pc-employee-global'); // 이동할 위치 : 잡캔의 로그인 주소
 	await page.evaluate(() => {
-		document.querySelector('input#client_id').value = 'iacryl'; // 회사명을 입력
+		document.querySelector('input#client_id').value = '회사명'; // 회사명을 입력
 		document.querySelector('input#email').value = '아이디'; // 아이디를 입력
 		document.querySelector('input#password').value = '비밀번호'; // 비밀번호를 입력
 	});
