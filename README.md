@@ -1,14 +1,15 @@
 # Jobcapture
-어쩌다 만든 잡캔 자동 로그인 및 스샷 캡처
+Coffee? Donut! Dunken Donut!
 
 ## 설치
 ### 1. 기본 세팅
 ```javascript
-// index.js L:10 - L:13
-document.querySelector('input#client_id').value = '회사명'; // 회사명을 입력
-document.querySelector('input#email').value = '아이디'; // 아이디를 입력
-document.querySelector('input#password').value = '비밀번호'; // 비밀번호를 입력
+// .env
+COMPANY=회사명
+ID=회사계정
+PASSWORD=계정비밀번호
 ```
+`.env` 파일 수정
 
 ### 2. npm install
 ```

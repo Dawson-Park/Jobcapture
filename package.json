@@ -4,6 +4,7 @@
   "description": "Bienvenido a la isla bonita, de gracia, de oro y de sol.",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "puppeteer": "^13.0.1"
   },
   "devDependencies": {},
