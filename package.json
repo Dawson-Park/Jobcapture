@@ -1,7 +1,7 @@
 {
   "name": "jobcapture",
-  "version": "1.0.1",
-  "description": "Bienvenido a la isla bonita, de gracia, de oro y de sol.",
+  "version": "1.0.2",
+  "description": "Coffee? Donut! Dunken Donut!",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^16.0.1",
