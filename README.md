@@ -8,6 +8,7 @@ Coffee? Donut! Dunken Donut!
 COMPANY=회사명
 ID=회사계정
 PASSWORD=계정비밀번호
+ARRIVE=09:00
 ```
 `.env` 파일 수정
 
