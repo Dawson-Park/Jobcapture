@@ -12,8 +12,9 @@ const Util = require('./lib/util.js');
 
 	await moveToThisWeek(page) // 이번 주차의 페이지로 이동
 
-	await Callog.show(page); // 캘린더를 cui로 출력
-	// await Callog.schedulate();
+	await Callog.init(page);
+	// await Callog.show(); // 캘린더를 cui로 출력
+	await Callog.schedulate();
 
 	await snapShot(page); // 스크린샷
 
